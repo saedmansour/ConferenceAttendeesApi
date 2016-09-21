@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+names = ["peter quill", "michael jackson", "antonio valeno", "giovanii manini",
+"harry potter", "gandalf the yellow", "charlaman the 3.14", "janet monterra", "clockar bullelo",
+"abdallah al mahshi"]
+
+names.each {|name| Attendee.create(name: name) }
