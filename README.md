@@ -1,5 +1,3 @@
-== README
-
 * Install Pow
 * Add my_api.dev to pow.
 * Ruby 2.3
